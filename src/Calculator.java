@@ -1,5 +1,3 @@
-package w7d1calc;
-
 /*
  * Calculator class provides math routines for simple calculator
  *
@@ -20,6 +18,7 @@ public class Calculator {
     }
     
     public static int divide (int num1, int num2) {
+        // prevent exception by not allowing division by zero
         if (num2 == 0) {
             System.out.println("Cannot divide by 0!");
             return 0;

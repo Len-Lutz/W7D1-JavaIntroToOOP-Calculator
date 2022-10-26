@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import w7d1calc.Calculator;
 
 /*
  * Main class for "Week 7 Lecture Day 1 Homework - Java Calculator"
